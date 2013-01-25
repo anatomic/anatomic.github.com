@@ -1,3 +1,9 @@
 safe: true
 lsi: true
 pygments: true
+auto: true
+server: true
+baseurl: my.website.dev
+server_port: 80
+markdown: rdiscount
+permalink: /:title
