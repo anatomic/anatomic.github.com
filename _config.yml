@@ -1,9 +1,8 @@
 safe: true
-lsi: true
+lsi: false 
 pygments: true
 auto: true
 server: true
-baseurl: my.website.dev
-server_port: 80
+server_port: 8080
 markdown: rdiscount
 permalink: /:title
