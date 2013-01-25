@@ -2,7 +2,7 @@ safe: true
 lsi: false 
 pygments: true
 auto: true
-server: true
+server: false
 server_port: 8080
 markdown: rdiscount
 permalink: /:title

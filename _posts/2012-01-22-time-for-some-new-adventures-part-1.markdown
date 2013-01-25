@@ -3,7 +3,7 @@ layout:blog
 comments: true
 date: 2012-01-22 12:14:12
 layout: post
-permalink: /time-for-some-new-adventures-part-1
+slug: time-for-some-new-adventures-part-1
 title: Time for some New Adventures (part 1)
 wordpress_id: 263
 categories:
