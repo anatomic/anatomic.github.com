@@ -1,0 +1,45 @@
+---
+comments: true
+date: 2010-04-15 22:59:00
+layout: post
+slug: what-does-apple-vs-adobe-mean-for-new-professional-flash-designers-and-developers
+title: What does Apple Vs. Adobe mean for new professional Flash designers and developers?
+wordpress_id: 25
+categories:
+- General
+tags:
+- Adobe
+- Apple
+- Flash
+---
+
+
+    
+
+The iPhone started it, the iPad carried it on and now it seems that the revised T's & C's from Apple have really fired the whole Apple vs. Adobe argument. From the outset I'm going to put my cards on the table, I love Apple products - I have an iPhone, an iMac and use Apple computers at work - and I also love working with Flash so this situation is one that is of both interest and concern to me. 
+
+My personal history in this area begins properly in 2008, when I first picked up Flash professionally. Although I'd flirted with flash back when it was a Macromedia product, I hadn't really played with it in years and starting my new job at Coolpink threw me in at the deep end. Fortunately it seemed to just 'click' and since then I've enjoyed attending conferences, learning new techniques and building cool experiences with Flash. I've made a lot of interesting things with Flash and Actionscript and it's pretty much become my main focus. Given my relatively short amount of time working with Flash, however, this whole situation is a bit confusing and a little bit worrying. I'm sure I'm not alone here... 
+
+<!-- more -->
+
+In a nutshell here's what I don't understand about this situation. The iPad is surely powerful enough to run Flash Player but doesn't. Flash doesn't perform as well on OS X as on Windows but Apple block access to APIs that would mean performance boosts. Web designers and developers seem to constantly cry fowl about Flash being a proprietary platform and say that HTML5 is a much better alternative, but it's currently miles off being good enough to rival what you can achieve with Flash and the Canvas element which makes it all vaguely interesting is in fact developed by Apple and isn't Open Source either!! Oh, and HTML5 seems to be more of a performance hog than Flash for a great many tasks. 
+
+When I was at uni (back in the dark days of the early 2000s) I was pushing the use of CSS over tables. It made sense, it was a better solution. So when someone at work suggested that HTML5 and CSS3 would render Flash pointless I decided to give this 'new' way of working a go. It sucked. I wanted to put a drop shadow on something and ignoring the lack of blend modes etc. I just couldn't get it to work. On a mixed background, some parts of the shadow were too strong and in other parts it looked like a glow. Rubbish!
+
+
+
+
+For me, a lot of the bad press that Flash seems to get is not down to how the runtime performs, but how shoddy the development of the site or app is in the first place. You've only got to look at things like the Hobnox Audiotool ([www.audiotool.com](http://www.audiotool.com)) to see how much performance it is possible to get from the Flash Player. It feels like Apple are being deliberately destructive here and given that they have sold a lot of hardware to creatives because of the Adobe suite of products it's very confusing. 
+
+Let's not forget that Google and RIM (makers of the Blackberry) have recently partnered with Adobe to help push the Flash platform forward, specifically on mobile devices. I've seen Flash Player 10.1 running on mobile devices and it performs really well. It certainly performs well enough on netbooks and in the past month my native Apple apps have crashed more than a browser running Flash. 
+
+Steve Jobs saying that intermediate layers create poorer experiences is nonsense, and I'll back up the many previous voices that have said that the blame for poor experiences lies with poor developers, not the tools they use. My personal feeling is that Apple really don't want Flash Player on the iPhone/iPod/iPad because it would undermine profits from the App store. The cross compilation from the Flash IDE seems a bit more murky as there may be some truth in the technical problems that it may cause with the new version of the iPhone OS but even so, why put that clause in there? If Flash compiles apps that don't work, developers won't use it, just like they won't use Lua, Monotouch or Unity if they don't work properly! The key is letting the developer choose. 
+
+So what does this all mean for me really? I will continue to use Flash for personal experiments and projects and I will continue to recommend it as a solution for clients where it is suitable but the shockwave (poor pun) of the Apple tactics have already started to be felt as we've seen clients questioning the use of Flash a lot more. I hope it doesn't die out as I've developed a wide and in-depth set of skills for working with AS3 and Flash, however, I'd like to think that I could use my knowledge to produce quality work on any platform using any tools or language. 
+
+My worry for the future is that this whole debate confuses people that don't really know enough about Flash or HTML5. I fear that clients will start requesting that work is not carried out in Flash without proper justification. Even if it is the best technology to solve their brief they'll be scared because of the storm that this debate has whipped up. Flash suddenly seems to have become the whipping boy. 
+
+Should people just starting out working with Flash be worried? I'd say not, so long as they are prepared to learn design and development from the ground up. As always, the aim should be to become a great designer or coder, not just a great Flash designer or Actionscript coder.
+
+
+  
