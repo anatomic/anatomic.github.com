@@ -32,7 +32,7 @@ My background in Computer Science gave me a fairly hefty leg up when I stepped i
 
 
 
-In the past six months my role has changed as I've begun to focus more  on creating experiences and interactive work and less on standard web design, so much so that I'd consider my job title to have changed from Web Designer to Interactive Designer.  I'll be quick to state  that interactive does not equal animation (or the inherently bland  images fading between one another as part of a promo), everything that  someone comes into contact with on the Internet is in some way  interactive.  On the whole though, I've been responsible for designing  and developing Flash games/sites/widgets/etc. that are based around  reacting to a user's input.
+In the past six months my role has changed as I've begun to focus more  on creating experiences and interactive work and less on standard web design, so much so that I'd consider my job title to have changed from Web Designer to Interactive Designer.  I'll be quick to state that interactive does not equal animation (or the inherently bland images fading between one another as part of a promo), everything that someone comes into contact with on the Internet is in some way interactive.  On the whole though, I've been responsible for designing  and developing Flash games/sites/widgets/etc. that are based around  reacting to a user's input.
 
 
 
