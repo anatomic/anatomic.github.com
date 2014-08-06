@@ -26,7 +26,7 @@ gulp.task('server', function() {
 
 gulp.task('sass', function() {
     gulp.src('src/scss/app.scss')
-        .pipe(sass())
+        .pipe(sass({ output: 'compressed'} ))
         .pipe(gulp.dest('build/css'))
         .pipe(reload({stream:true}));
 });
