@@ -1,0 +1,46 @@
+{
+  "name": "anatomic.github.com",
+  "version": "0.0.0",
+  "description": "Ian Thomas' blog about interaction design and front-end development",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anatomic/anatomic.github.com.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Ian Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anatomic/anatomic.github.com/issues"
+  },
+  "homepage": "https://github.com/anatomic/anatomic.github.com",
+  "devDependencies": {
+    "browser-sync": "^1.3.3",
+    "browserify": "^5.9.1",
+    "gray-matter": "^0.4.2",
+    "gulp": "^3.8.7",
+    "gulp-gh-pages": "^0.3.3",
+    "gulp-react": "^0.5.0",
+    "gulp-sass": "^0.7.2",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^0.3.1",
+    "gulp-watch": "^0.6.9",
+    "handlebars": "^2.0.0-alpha.4",
+    "highlight.js": "^8.1.0",
+    "moment": "^2.8.1",
+    "react": "^0.11.1",
+    "streamify": "^0.2.4",
+    "vinyl-source-stream": "^0.1.1"
+  },
+  "dependencies": {
+    "bean": "^1.0.14",
+    "bonzo": "^2.0.0",
+    "qwery": "^4.0.0",
+    "showdown": "^0.3.1"
+  }
+}

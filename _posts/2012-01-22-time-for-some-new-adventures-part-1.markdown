@@ -1,18 +1,14 @@
 ---
-layout:blog
-comments: true
 date: 2012-01-22 12:14:12
-layout: post
 slug: time-for-some-new-adventures-part-1
 title: Time for some New Adventures (part 1)
-wordpress_id: 263
 categories:
-- Web Design
+  - Web Design
 tags:
-- Conference
-- Inspiration
-- New Adventures
-- web design
+  - Conference
+  - Inspiration
+  - New Adventures
+  - web design
 ---
 
 Yesterday saw the second New Adventures in Web Design, organised by Simon Collison (Colly) and Greg Wood. In his editorial piece in the conference newspaper, Colly said he'd vowed "never again" after last year's conference, but that he was talked into doing it all over again by Greg over a few jars of ale. Thanks Greg, you were right to bully Colly as it would have been criminal if this fantastic event hadn't happened again.

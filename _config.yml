@@ -1,7 +1,0 @@
-safe: true
-lsi: false 
-pygments: true
-auto: true 
-server: false
-markdown: rdiscount
-permalink: /:title
