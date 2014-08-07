@@ -10,3 +10,7 @@ hljs.registerLanguage('markdown', require('highlight.js/lib/languages/markdown.j
 hljs.registerLanguage('handlebars', require('highlight.js/lib/languages/handlebars.js'));
 
 hljs.initHighlighting();
+
+
+// Next step will be looking at how to build a navigation system from the json file spat out as a result
+// of the build process
