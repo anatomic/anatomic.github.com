@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consuming web services from Adobe Flash (or now you see me, now you 	don&#x27;t)</title>
+    <link rel='stylesheet' href='/css/app.css'/>
+</head>
+<body>
+<article>
+    <header>
+        <h1 class=article__title>Consuming web services from Adobe Flash (or now you see me, now you 	don&#x27;t)</h1>
+        <h3 class=article__meta>First published 5 years ago</h3>
+    </header>
+<pre><code>I wonder if I'm missing something here. Today I tried to setup a flash widget to bring in a feed from Twitter, in the Flash IDE this was, of course, no problem.  I got the data, parsed it and displayed it just how I wanted.  This wasn't quite the case when I deployed to the web (of course).  I was greeted by the usual security error when trying to pull in data from another domain.
+</code></pre>
+
+<p>Freely admitting that I'm not so hot on the intricate details of the Flash security sandbox, I guess this means that Twitter doesn't have a cross domain policy file (seems strange).  So I did the obvious thing, wrote some php that pulled the feed from Twitter so that my little Flash app thought it was coming from my domain.</p>
+
+<p>This little song and dance seems crazy to me, why not just let me get at that xml in the first place? </p>
+
+<p>I can tell a good few hours reading up on this is required, but it just puzzled me.  The solution was easy enough but it seems wholly unecessary.</p>
+</article>
+<hr class="rule">
+<p class=smallprint>&copy;2014 Ian Thomas</p>
+<script src="/js/app.js"></script>
+</body>
+</html>
