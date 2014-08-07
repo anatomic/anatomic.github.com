@@ -1,19 +1,14 @@
-var gulp = require('gulp'),
-    sass = require('gulp-sass'),
+var gulp       = require('gulp'),
+    sass       = require('gulp-sass'),
     browserify = require('browserify'),
-    source = require('vinyl-source-stream'),
-    bs = require('browser-sync'),
-    reload = bs.reload;
-    matter = require('gray-matter'),
-    fs = require('fs'),
-    showdown = require('showdown'),
-    converter = new showdown.converter(),
-    hbs = require('handlebars'),
-    watch = require('gulp-watch'),
-    uglify = require('gulp-uglify'),
-    streamify = require('gulp-streamify'),
-    moment = require('moment'),
-    deploy = require('gulp-gh-pages');
+    source     = require('vinyl-source-stream'),
+    bs         = require('browser-sync'),
+    reload     = bs.reload;
+    hbs        = require('handlebars'),
+    watch      = require('gulp-watch'),
+    uglify     = require('gulp-uglify'),
+    streamify  = require('gulp-streamify'),
+    deploy     = require('gulp-gh-pages');
 
 var makePosts = require('./gulp/gulp-make-posts');
 

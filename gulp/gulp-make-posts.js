@@ -1,11 +1,13 @@
-var through = require('through2'),
-    utils = require('gulp-util'),
-    moment = require('moment'),
-    matter = require('gray-matter'),
-    hbs = require('handlebars'),
-    _ = require('lodash'),
-    fs = require('fs'),
-    path = require('path');
+var through   = require('through2'),
+    utils     = require('gulp-util'),
+    moment    = require('moment'),
+    matter    = require('gray-matter'),
+    hbs       = require('handlebars'),
+    _         = require('lodash'),
+    fs        = require('fs'),
+    showdown  = require('showdown'),
+    converter = new showdown.converter(),
+    path      = require('path');
 
 module.exports = function(opts) {
     var defaults = { 
