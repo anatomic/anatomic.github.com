@@ -15,6 +15,8 @@ var gulp = require('gulp'),
     moment = require('moment'),
     deploy = require('gulp-gh-pages');
 
+var makePosts = require('./gulp/gulp-make-posts');
+
 gulp.task('server', function() {
     return bs({
         server: {
@@ -26,7 +28,7 @@ gulp.task('server', function() {
 
 gulp.task('sass', function() {
     gulp.src('src/scss/app.scss')
-        .pipe(sass({ output: 'compressed'} ))
+        .pipe(sass({ outputStyle: 'compressed'} ))
         .pipe(gulp.dest('build/css'))
         .pipe(reload({stream:true}));
 });
@@ -41,19 +43,10 @@ gulp.task('js', function() {
 });
 
 gulp.task('html', function() {
-    var post = matter.read('./_posts/2012-01-22-time-for-some-new-adventures-part-1.markdown');
-    post.content = converter.makeHtml(post.content);
-    post.data.publishedAt = moment(post.data.date).format('Do MMMM YYYY');
-    fs.readFile('./src/html/layouts/main.html', 'utf-8', function( err, data ) {
-        if (err) return console.error(err);
-
-        var template = hbs.compile(data);
-        var html = template(post);
-
-        fs.writeFile('./build/index.html', html);
-    });
-
-    bs.reload();
+    return gulp.src('./_posts/**/*.markdown')
+        .pipe(makePosts())
+        .pipe(gulp.dest('build'))
+        .pipe(reload({stream:true}));
 });
 
 gulp.task('watch', ['server'], function() {
@@ -62,7 +55,7 @@ gulp.task('watch', ['server'], function() {
     watch({ glob: ['./src/scss/**/*.scss']}, ['sass']);
 });
 
-gulp.task('deploy', function() {
+gulp.task('deploy', ['html', 'js', 'sass'], function() {
     return gulp.src('build/**/*', { base: 'build' })
         .pipe(deploy({
             branch: 'master' 
