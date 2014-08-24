@@ -6,36 +6,9 @@
     <link rel='stylesheet' href='/css/app.css'/>
 </head>
 <body>
-<article>
-    <header>
-        <h1 class=article__title>How to quickly offer a preview of your work using Dropbox</h1>
-        <h3 class=article__meta>First published 3 years ago</h3>
-    </header>
-<p>Have you ever needed to give a colleague or client a web-based preview of your current project?  Have you found the trudge of setting up some hosting, uploading the files and keeping them up-to-date to be a pain?  I have, and recently I found myself in a position where I had no hosting available so needed to find an alternative way to offer a preview of my work.<!-- more --></p>
-
-<h3 id="dropboxmysaviour">Dropbox my saviour</h3>
-
-<p>I was tipped off by my good friend Nick – <a href="http://www.twitter.com/makeusabrew">http://www.twitter.com/makeusabrew</a> – that Dropbox’s public folder would allow me to get a URL for any files contained within it.  I use Dropbox almost religiously as my work folder so the ability to preview straight from it was brilliant <em>– and I can’t believe I’ve never used this feature before!</em></p>
-
-<p>Rather than copy the files over to the Public folder, I’ve simply used a bit of Terminal magic to set up a symbolic link to the preview files:</p>
-
-<pre><code>ln &lt;span class="argument"&gt;-s&lt;/span&gt; ~&lt;span class="other"&gt;/&lt;/span&gt;Dropbox&lt;span class="other"&gt;/&lt;/span&gt;work&lt;span class="other"&gt;/&lt;/span&gt;project&lt;span class="other"&gt;/&lt;/span&gt;parent_folder&lt;span class="other"&gt;/&lt;/span&gt; ~&lt;span class="other"&gt;/&lt;/span&gt;Dropbox&lt;span class="other"&gt;/&lt;/span&gt;Public&lt;span class="other"&gt;/&lt;/span&gt;preview&lt;span class="other"&gt;/&lt;/span&gt;
-</code></pre>
-
-<p>From there, it’s just a case of right-clicking the newly created preview folder and choosing Dropbox > Browse On Dropbox Website.</p>
-
-<h3 id="gettingthepreviewlink">Getting the preview link</h3>
-
-<p>Once you’re viewing your folder on the Dropbox website, choose the file you want to showcase (in my case it was an index.html) and click ‘Copy public link’ (if you can’t find it, click the down facing arrow on the far right hand side).</p>
-
-<p>You can then either copy the full link or create a shortened version that you can send on to whomever you like.</p>
-
-<p>That’s it! A preview that is always up-to-date and publicly available without the need to set up hosting or ftp files.</p>
-
-<p><em>Just a note, obviously this puts your work on a public URL (although it’s not going to be indexed by google) so be careful about how you share the link if you have commercially sensitive work to preview!</em></p>
-</article>
-<hr class="rule">
-<p class=smallprint>&copy;2014 Ian Thomas</p>
+<div id="content">
+  <div class="article" data-reactid=".l9xfav8av4" data-react-checksum="-877337817"><header data-reactid=".l9xfav8av4.0"><h1 class="article__title" data-reactid=".l9xfav8av4.0.0">Test</h1><h3 class="article__meta" data-reactid=".l9xfav8av4.0.1"><span data-reactid=".l9xfav8av4.0.1.0">First published </span><span data-reactid=".l9xfav8av4.0.1.1">Yesterday</span></h3></header><div class="article__body" data-reactid=".l9xfav8av4.1">This is the post content</div><hr class="rule" data-reactid=".l9xfav8av4.2"><p class="smallprint" data-reactid=".l9xfav8av4.3"><span data-reactid=".l9xfav8av4.3.0">©</span><span data-reactid=".l9xfav8av4.3.1">2014</span><span data-reactid=".l9xfav8av4.3.2"> Ian Thomas</span></p></div>
+</div>
 <script src="/js/app.js"></script>
 </body>
 </html>

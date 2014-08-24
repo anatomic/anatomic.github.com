@@ -1,0 +1,11 @@
+<p>Recently I've been working more and more in Flash with the work getting increasingly complex and code intensive. This got me thinking about dynamic content and Flash's capabilities to work with it.</p>
+
+<p>On a recent project we produced a piece of work that retrieved various xml feeds from a server which in turn ran a custom CMS to allow content to be uploaded that would then be pulled into our Flash content.  It works great and  it feels really good to be hooking up my work to a PHP back-end but my question is this; why should we have to pull in an automatically generated XML feed from PHP (or whatever)?  Would we not be better having the same ability to query databases as you get in server side languages?</p>
+
+<p>I gather than you get database controls (albeit limited) when working with Adobe AIR but why should this side of the Flash Platform be so limited?</p>
+
+<p>Part of me wonders if this is something to do with the lack of security when you publish a SWF file.  Most people in the Flash community know how easy it is to decompile a SWF file and get access to its symbols and code (and even convert the whole thing back into a .fla) so perhaps this is the major hurdle to overcome before we get proper database access from AS3.</p>
+
+<p>This issue of decompiling a SWF has bothered me for some time, and though it is generally accepted that View Source is a great way to learn, this becomes problematic when business logic and explicit details of database locations and passwords are required.  PHP hides this from the end-user as all they see is the result of the script running, decompile a SWF and you get access to the script that does the query as well as the result that is returned.</p>
+
+<p>While XML looks set to be the middle man for dynamic Flash content for the foreseeable future, I hope that Adobe does review the way that SWF files can be made secure and provides database querying functionality at some point.</p>

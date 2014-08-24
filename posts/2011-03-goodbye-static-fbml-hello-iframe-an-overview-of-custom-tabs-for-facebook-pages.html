@@ -1,0 +1,56 @@
+<p>Facebook has recently upgraded Pages with a raft of new features that are aimed at helping Page owners communicate more effectively.  Amongst the new features are better ways to keep up with activity on a Page, new ways for Pages to share content, new ways for users to filter a Page's content by relevancy and a completely new system for creating Custom Tabs.</p>
+
+<p>I've been looking into what these updates mean for businesses and app designers and have found that the new iFrame system opens the door to bigger and better Custom Tabs.<!-- more --></p>
+
+<p><strong>The New Custom Page</strong></p>
+
+<p>The most obvious change has been the design, with tabs being removed from the top to under the profile image and photos uploaded to the Page being displayed across the top in the same way as a normal Facebook Profile.  Additionally, it is now possible for admins to browse Facebook as a Page, increasing the ability for the Page to build a presence through liking, commenting and sharing content across the network.</p>
+
+<p>The not so obvious change is in the way that Custom Tabs can be added.  Previously it was possible for a user to create a Tab using the Static FBML application and this was a really simple way to get a personalised tab that could act as the opening view of your Page.  FBML offered ways to access features of Facebook, including the like button and comments, as well as ways to use data about the user to customise content for them.  A fan gate was a typical feature where different content was shown to users who had liked a Page to those who hadn't.</p>
+
+<p>I'm talking about FBML in the past tense because that functionality has all changed, and from tomorrow (12th March 2011) you are no longer able to add a Static FBML tab to your Page.  Instead, Facebook has introduced iFrame support to Pages and Custom Tabs can only be created using that feature.</p>
+
+<p><strong>How to add a Custom Tab</strong></p>
+
+<p>So how do you go about building a Custom Tab using iFrame Applications?  The good news is that the new system is actually much better in terms of functionality that can be provided and once familiar with the process it is really simple.</p>
+
+<p>A Custom Tab is setup in the <a href="http://developers.facebook.com">developers area of Facebook</a> in the same way that applications are created.  You specify a base url for your Canvas Application and then specify the url that tab content should come from.  Currently you have to specify a Canvas URL, even if you only want to use the Custom Tab feature.</p>
+
+<p>Development and testing is easier as you can build your application locally and use exactly the same code to power the live application, no need to copy and paste FBML/HTML into a form on Facebook before clicking to preview.  An extra little benefit is that because you host the content, not Facebook, the aggressive caching that Facebook employed for Static FBML tabs is now no longer used, so no more having to put query strings on css and image urls when you need to make a change!</p>
+
+<p>With the Javascript SDK and various server-side SDKs (typically I use the PHP SDK to access features of the Graph API) it is now possible to build your application using the same HTML, CSS and Javascript that you use on your own website.  This means that libraries such as jQuery and MooTools can be used to provide extra functionality to your custom Tab.</p>
+
+<p><strong>iFrame Apps Technical Details</strong></p>
+
+<p>Facebook sends POST data to your application when a user clicks to view your Custom Tab (they call this the Signed Request).  Depending on where your application is being viewed, the Signed Request includes information about the Page and the User.  If you haven't requested extra permissions, there is only limited data about the User available, including their country, locale and ID.</p>
+
+<p>For Custom Tabs the signed request contains extra information about the Page, including a boolean that says whether a user has liked the page or not.  This feature is what allows fan gates to be implemented as it provides a way to check a user's status without having to request advanced permissions.  You can also detect whether the user is an admin of the page.</p>
+
+<p>The migration from FBML to iFrame tabs has also meant the demise of preload FQL.  As with currently built static FBML tabs, any apps that make use of preload FQL currently will continue to work, but new apps will not be able to use this functionality.</p>
+
+<p><strong>Custom Tab Gotchas</strong></p>
+
+<p>The need to implement Custom Tabs through iFrame apps has also introduced some interesting gotchas that application developers and Page admins need to take into consideration.  The main one being that all applications, even when not submitted to the Application Directory, have a publicly available profile page.  Whether this profile page is advertised or not there are ways to find it, and trust me that users will, so updates and administration will need to be factored into the management of the Custom Tab.</p>
+
+<p>Another potential source of issues is that a Canvas Application will exist for all Custom Tabs.  What content, if any, is shown there is a point for discussion between developers, designers and the Page admins, however it is worth remembering that a Canvas Application doesn't get the extra Page data in its signed request, so any Page specific functionality needs to be removed.</p>
+
+<p>Finally, it is worth remembering that apps can be installed on any Page, not just the ones that you administer, so it is important to plan what should happen if the app is installed away from your control.  Typically I suggest using that installation as an advert that directs users back to the Page for which the Custom Tab was created, but that certainly isn't the only way to handle that situation.</p>
+
+<p><strong>Expanding Your App</strong></p>
+
+<p>This move by Facebook to remove Static FBML apps will inevitably lead to developers and businesses becoming more aware of the Graph API and the structure of applications both on and off Facebook as opposed to simply knowing how to have a custom design installed on their Page.  I also think it will help Facebook spread the usage of the Open Graph as businesses will now have applications that they can use to administer their Open Graph pages.</p>
+
+<p>With the iFrame content being served from 3rd party servers it is possible to build Facebook support into a central CMS.  This could open the door to much greater control and use of Facebook Pages as content can be managed and updated a lot more easily than was previously possible using Static FBML. Showcasing a particular product on your Page could now be as simple as changing an image and some text in your CMS.</p>
+
+<p>Of course, this is merely scratching the surface of what is possible, and I'm sure that in the coming months we shall see a wave of innovative uses of iFrame applications that weren't previously possible using the Static FBML app. On the flip-side, there will be people that don't want to move to the new iFrame system and apps are already popping up that replicate the functionality that was offered by Static FBML.</p>
+
+<p><strong>More Information</strong></p>
+
+<p>Extra details about the changes to Pages and the migration from Static FBML to iFrame apps can be found on Facebook:</p>
+
+<ul>
+<li><p><a href="http://developers.facebook.com/blog/post/462">http://developers.facebook.com/blog/post/462</a></p></li>
+<li><p><a href="http://developers.facebook.com/blog/post/477">http://developers.facebook.com/blog/post/477</a></p></li>
+<li><p><a href="http://developers.facebook.com/docs/authentication/signed_request/">http://developers.facebook.com/docs/authentication/signed_request/</a></p></li>
+<li><p><a href="http://www.facebook.com/notes/facebook-pages/an-upgrade-for-pages/10150090729064822">http://www.facebook.com/notes/facebook-pages/an-upgrade-for-pages/10150090729...</a></p></li>
+</ul>
