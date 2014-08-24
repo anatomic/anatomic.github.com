@@ -7,7 +7,57 @@
 </head>
 <body>
 <div id="content">
-  <div class="article" data-reactid=".zcav9p8j5s" data-react-checksum="1841554335"><header data-reactid=".zcav9p8j5s.0"><h1 class="article__title" data-reactid=".zcav9p8j5s.0.0">Test</h1><h3 class="article__meta" data-reactid=".zcav9p8j5s.0.1"><span data-reactid=".zcav9p8j5s.0.1.0">First published </span><span data-reactid=".zcav9p8j5s.0.1.1">Yesterday</span></h3></header><div class="article__body" data-reactid=".zcav9p8j5s.1">This is the post content</div><hr class="rule" data-reactid=".zcav9p8j5s.2"><p class="smallprint" data-reactid=".zcav9p8j5s.3"><span data-reactid=".zcav9p8j5s.3.0">©</span><span data-reactid=".zcav9p8j5s.3.1">2014</span><span data-reactid=".zcav9p8j5s.3.2"> Ian Thomas</span></p></div>
+  <div class="article" data-reactid=".1md9d9jmscg" data-react-checksum="1381947045"><header data-reactid=".1md9d9jmscg.0"><h1 class="article__title" data-reactid=".1md9d9jmscg.0.0">Actionscript 3 Display List Tutorial Part 1: Getting To Grips With The Basics </h1><h3 class="article__meta" data-reactid=".1md9d9jmscg.0.1"><span data-reactid=".1md9d9jmscg.0.1.0">First published </span><span data-reactid=".1md9d9jmscg.0.1.1">5 years ago</span></h3></header><div class="article__body" data-reactid=".1md9d9jmscg.1"><p>I've been meaning to write a little introduction to the Display List for quite some time so hopefully this post will provide some very useful tips and tricks for people that are just delving into working with AS3. It's not an advanced tutorial but hopefully there'll be something of use to most Flashers!</p>
+
+<p>To start with AS3 is different to AS2 in that a display object doesn't have access to the Stage until it is added to the display list. This is a key thing to keep in mind when working with movieclips and sprites in code, especially when trying to initialise a movieclip that needs to know the stage size before it is added to the display list. This might sound weird if you're new to Flash and haven't touched AS2, but if you're coming from AS2 it's an important change to the way everything works. With that out of the way, what is the display list?</p>
+
+<p><strong>Display List Basics</strong> <br />
+Think of the Display List like a family tree. Sitting at the top is the Stage, it's the top level display object container and if you want to have something visible to the user then that movieclip (or sprite) needs to be added as a child to the stage. This looks something like this:</p>
+
+<p><code>
+  stage.addChild(myDisplayObject);
+</code></p>
+
+<p>With AS3 you don't necessarily need to write that line of code, especially if you are working with a Document Class. Typically you will write the code like this</p>
+
+<p><code>
+  this.addChild(myDisplayObject); //when working inside the Document Class
+  myDocumentClass.addChild(anotherDisplayObject); //when working with a class that holds a reference to the Document Class
+</code></p>
+
+<p>Now, in this family tree business you don't have everyone with one parent (that would be madness) - you have variations generations of parents and children (who can become parents themselves). The Display List works in a similar way with Movieclips and Sprites having functionality to be parents to other Movieclips (and Sprites) as well as children. In its simplest form this means that you can add Movieclips to other Movieclips as children. The key thing here is that an object can only have one parent, but (unlike the family tree metaphor) that parent can be changed at any time. You can also remove an object from the Display List completely. The following example shows some variations of adding, re-parenting and removing objects from the Display List.</p>
+
+<p>`
+  var a:MovieClip = new MovieClip();
+  var b:MovieClip = new MovieClip();
+  var c:MovieClip = new MovieClip();</p>
+
+<p>stage.addChild(a); //add the first movieclip to the stage
+  b.addChild(c); //add c to b. NOTE: neither of these two clips are on the stage yet, as the parent hasn't been added to the display list
+  a.addChild(b); //now all three are visible as a is the parent of b and a has already been added to the display list</p>
+
+<p>a.addChild(c); //we have re-parented c from b to a so both b and c are children of a</p>
+
+<p>a.removeChild(b); //the only items visible now are a and c
+ `</p>
+
+<p>The order that you add children to a parent determines their depth in the list, with the last added child being the highest up in the Display List. This is important to remember if you find that objects are hiding other objects in a way that you don't want. If you find yourself in this situation you can simply add the hidden object again (no need to remove it) and that will move it to the top of its parents list.**</p>
+
+<p>What Else Can You Do With This? <br />
+**This is working with the display list at its most basic and doesn't really hold much of interest other than getting your objects to be viewable by the user. I'll go over some more advanced techniques in the next part of the tutorial (which starts to look at other functions that allow you to work with the Display List) but as a parting shot I'll just cover some ways to hide objects from view.</p>
+
+<p>The Flash Player isn't the most performance savvy piece of software so whenever possible you have to lighten it's processing load to get the best possible performance and hiding objects is one little tip that can claw back precious miliseconds of processing. Simply put, setting a Movieclip's alpha value to 0 will still result in a performance hit as it will still be rendered by the Flash Player. Typically if you are going to set alpha to 0, you should also set visible = false for that object so that the Flash Player will ignore that object when doing a render. It doesn't seem like much when you're working on a small project, but if you start working with a large number of Movieclips this sort of optimisation becomes absolutely essential.</p>
+
+<p>Lastly, if you're not going to need a Movieclip for quite some time (if at all) then it's best to remove it from the Display List altogether. To sum up:</p>
+
+<p>`
+  myClip.alpha = 0; //bad</p>
+
+<p>myClip.alpha = 0;
+  myClip.visible = false; //better</p>
+
+<p>stage.removeChild(myClip); //best - substitute stage for the clip's parent
+ `</p></div><hr class="rule" data-reactid=".1md9d9jmscg.2"><p class="smallprint" data-reactid=".1md9d9jmscg.3"><span data-reactid=".1md9d9jmscg.3.0">©</span><span data-reactid=".1md9d9jmscg.3.1">2014</span><span data-reactid=".1md9d9jmscg.3.2"> Ian Thomas</span></p></div>
 </div>
 <script src="/js/app.js"></script>
 </body>

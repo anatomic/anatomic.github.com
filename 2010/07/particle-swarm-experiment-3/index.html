@@ -7,7 +7,25 @@
 </head>
 <body>
 <div id="content">
-  <div class="article" data-reactid=".mqm9xpid4w" data-react-checksum="767813243"><header data-reactid=".mqm9xpid4w.0"><h1 class="article__title" data-reactid=".mqm9xpid4w.0.0">Test</h1><h3 class="article__meta" data-reactid=".mqm9xpid4w.0.1"><span data-reactid=".mqm9xpid4w.0.1.0">First published </span><span data-reactid=".mqm9xpid4w.0.1.1">Yesterday</span></h3></header><div class="article__body" data-reactid=".mqm9xpid4w.1">This is the post content</div><hr class="rule" data-reactid=".mqm9xpid4w.2"><p class="smallprint" data-reactid=".mqm9xpid4w.3"><span data-reactid=".mqm9xpid4w.3.0">©</span><span data-reactid=".mqm9xpid4w.3.1">2014</span><span data-reactid=".mqm9xpid4w.3.2"> Ian Thomas</span></p></div>
+  <div class="article" data-reactid=".ejnt0r69ds" data-react-checksum="-1477497707"><header data-reactid=".ejnt0r69ds.0"><h1 class="article__title" data-reactid=".ejnt0r69ds.0.0">Particle Swarm Experiment 3</h1><h3 class="article__meta" data-reactid=".ejnt0r69ds.0.1"><span data-reactid=".ejnt0r69ds.0.1.0">First published </span><span data-reactid=".ejnt0r69ds.0.1.1">4 years ago</span></h3></header><div class="article__body" data-reactid=".ejnt0r69ds.1"><p>The little experiment now has multiple modes and a little system for sequencing them. I think this might be as far as I take this for now, but may end up coming back to it to add some new bits and pieces.</p>
+
+<p><!-- more --><a href="http://posterous.com/getfile/files.posterous.com/anatomic/LyBGCMFZQUALuE2zuxiKeXWob0V1QqDSpnO8goPk7yZvBYFCHd0zqtQOngyc/ParticleSwarm3.swf">Particle Swarm 3</a></p>
+
+<p>The code is pretty straightforward and development was made even quicker thanks to the awesome HYPE framework.  I wrote a custom particle class that is solely used to store numbers and calculate where it should go next (you pass it a target point and it swarms towards it) and the Main class generates and animates the 40 0000+ particles.</p>
+
+<p>The Object Pool class from the HYPE Framework made working with large numbers of particles easy, though I think I could probably get greater performance from a custom solution.  Other than the maths to work out where a particle should go next the only other code worth noting is how a particle is drawn.</p>
+
+<p>Experienced flash developers will know this like the back of their hands, but it's useful to document for newer developers that might now have had the exposure to manipulating large numbers of particles and drawing them to the screen.  It involves a large bitmap and the BitmapData class' setPixel32() method.</p>
+
+<pre><code>bmd.colorTransform(bmd.rect, new ColorTransform(1,1,1.02,0.99));
+bmd.applyFilter(bmd, bmd.rect, new Point(0,0), new BlurFilter(1.15, 1.15, 1));
+bmd.lock();
+pool.activeSet.forEach(function(p:Pixel):void{
+p.update();
+bmd.setPixel32(p.x, p.y , p.color);
+});
+bmd.unlock()
+</code></pre></div><hr class="rule" data-reactid=".ejnt0r69ds.2"><p class="smallprint" data-reactid=".ejnt0r69ds.3"><span data-reactid=".ejnt0r69ds.3.0">©</span><span data-reactid=".ejnt0r69ds.3.1">2014</span><span data-reactid=".ejnt0r69ds.3.2"> Ian Thomas</span></p></div>
 </div>
 <script src="/js/app.js"></script>
 </body>
