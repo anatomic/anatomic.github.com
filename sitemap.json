@@ -4,605 +4,345 @@
       "publishedAt": "2012-04-11T23:21:56.000Z",
       "publishedAtHuman": "2 years ago",
       "publishedAtFormal": "12th April 2012",
-      "year": "2012",
-      "month": "04",
-      "slug": "time-for-some-new-adventures-part-2",
       "title": "Time for some new adventures (part 2)",
-      "path": "posts/2012-04-time-for-some-new-adventures-part-2.html",
-      "tags": [
-        "finn",
-        "oom"
-      ]
+      "excerpt": "Perhaps “New Adventures” is the wrong phrase as I’m now well into my third month of this particular endeavour, but sticking with the theme I’m pleased to announce that I am now Head of Digital for <a href=\"http://www.finncomms.com\">Finn</a>! It’s a bit of a departure from working for a web design agency (for those that don’t know, Finn are traditionally known as a PR agency) but it’s a grand adventure and one that I’m excited to be part of.",
+      "path": "2012/04/time-for-some-new-adventures-part-2/"
     },
     {
       "publishedAt": "2012-01-22T12:14:12.000Z",
       "publishedAtHuman": "3 years ago",
       "publishedAtFormal": "22nd January 2012",
-      "year": "2012",
-      "month": "01",
-      "slug": "time-for-some-new-adventures-part-1",
       "title": "Time for some New Adventures (part 1)",
-      "path": "posts/2012-01-time-for-some-new-adventures-part-1.html",
-      "tags": [
-        "Conference",
-        "Inspiration",
-        "New Adventures",
-        "web design"
-      ]
+      "excerpt": "Yesterday saw the second New Adventures in Web Design, organised by Simon Collison (Colly) and Greg Wood. In his editorial piece in the conference newspaper, Colly said he'd vowed \"never again\" after last year's conference, but that he was talked into doing it all over again by Greg over a few jars of ale. Thanks Greg, you were right to bully Colly as it would have been criminal if this fantastic event hadn't happened again.",
+      "path": "2012/01/time-for-some-new-adventures-part-1/"
     },
     {
       "publishedAt": "2012-01-17T16:06:16.000Z",
       "publishedAtHuman": "3 years ago",
       "publishedAtFormal": "17th January 2012",
-      "year": "2012",
-      "month": "01",
-      "slug": "a-focus-on-the-web-design-process",
       "title": "A Focus On The Web Design Process",
-      "path": "posts/2012-01-a-focus-on-the-web-design-process.html",
-      "tags": [
-        "process",
-        "Project Management",
-        "Tools",
-        "web design"
-      ]
+      "excerpt": "If you are anything like me you often find yourself pondering the best way to get something done. That something could be how to grow the nicest lawn, ride the perfect line down a rocky trail, pour the perfect pint or write the most semantically sound HTML and CSS. Ok, so maybe they are just me, but certainly one of the things that commands my attention more often than not is the web design process.",
+      "path": "2012/01/a-focus-on-the-web-design-process/"
     },
     {
       "publishedAt": "2011-10-17T21:30:41.000Z",
       "publishedAtHuman": "3 years ago",
       "publishedAtFormal": "17th October 2011",
-      "year": "2011",
-      "month": "10",
-      "slug": "make-an-animated-search-form-using-only-css",
       "title": "Make an animated search form using only CSS",
-      "path": "posts/2011-10-make-an-animated-search-form-using-only-css.html",
-      "tags": [
-        "Animation",
-        "CSS",
-        "HTML",
-        "Interface",
-        "UX"
-      ]
+      "excerpt": "Inspired by a <a href=\"http://dribbble.com/shots/287760-Search-Interaction-Demo-2\">shot on Dribbble</a> from Morgan Allan Knutson where he showcased an animated search form using only CSS I thought I would try to re-create the effect for myself. Using a bit of CSS3 magic, the effect is actually quite easy to re-create!",
+      "path": "2011/10/make-an-animated-search-form-using-only-css/"
     },
     {
       "publishedAt": "2011-07-03T19:13:54.000Z",
       "publishedAtHuman": "3 years ago",
       "publishedAtFormal": "3rd July 2011",
-      "year": "2011",
-      "month": "07",
-      "slug": "tracking-social-engagement-with-google-analytics",
       "title": "Tracking Social Engagement with Google Analytics",
-      "path": "posts/2011-07-tracking-social-engagement-with-google-analytics.html",
-      "tags": [
-        "Facebook",
-        "Google Analytics",
-        "Javascript",
-        "Social Engagement",
-        "Social Media",
-        "Tracking",
-        "Twitter",
-        "User Interactions"
-      ]
+      "excerpt": "Google Analytics has recently introduced Social Interaction Tracking, a way to record and measure user interactions with social media buttons.  While it has been possible to track social interactions using Events, there is now a dedicated section that makes analysing Social actions even easier.  This post shows you how to set up social media tracking for Facebook and Twitter and gives you all you need to go on and set up social interaction tracking on your website.<!-- more -->",
+      "path": "2011/07/tracking-social-engagement-with-google-analytics/"
     },
     {
       "publishedAt": "2011-06-29T16:00:00.000Z",
       "publishedAtHuman": "3 years ago",
       "publishedAtFormal": "29th June 2011",
-      "year": "2011",
-      "month": "06",
-      "slug": "how-to-quickly-offer-a-preview-of-your-work-using-dropbox",
       "title": "How to quickly offer a preview of your work using Dropbox",
-      "path": "posts/2011-06-how-to-quickly-offer-a-preview-of-your-work-using-dropbox.html",
-      "tags": [
-        "Dropbox",
-        "process",
-        "Workflow"
-      ]
+      "excerpt": "Have you ever needed to give a colleague or client a web-based preview of your current project?  Have you found the trudge of setting up some hosting, uploading the files and keeping them up-to-date to be a pain?  I have, and recently I found myself in a position where I had no hosting available so needed to find an alternative way to offer a preview of my work.<!-- more -->",
+      "path": "2011/06/how-to-quickly-offer-a-preview-of-your-work-using-dropbox/"
     },
     {
       "publishedAt": "2011-06-22T14:45:00.000Z",
       "publishedAtHuman": "3 years ago",
       "publishedAtFormal": "22nd June 2011",
-      "year": "2011",
-      "month": "06",
-      "slug": "get-people-to-like-your-facebook-page-using-gated-content",
       "title": "Get people to like your Facebook page using gated content",
-      "path": "posts/2011-06-get-people-to-like-your-facebook-page-using-gated-content.html",
-      "tags": [
-        "Facebook",
-        "iFrame",
-        "Javascript",
-        "php"
-      ]
+      "excerpt": "One of the challenges that faces owners of Facebook Pages is the need to get visitors coming back. It can cost a lot of time, energy and money to get users returning to your page but thankfully Facebook has a feature that can make it easier to stay in touch, the like button.",
+      "path": "2011/06/get-people-to-like-your-facebook-page-using-gated-content/"
     },
     {
       "publishedAt": "2011-03-11T15:05:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "11th March 2011",
-      "year": "2011",
-      "month": "03",
-      "slug": "goodbye-static-fbml-hello-iframe-an-overview-of-custom-tabs-for-facebook-pages",
       "title": "Goodbye Static FBML, Hello iFrame - An Overview of Custom Tabs for Facebook Pages",
-      "path": "posts/2011-03-goodbye-static-fbml-hello-iframe-an-overview-of-custom-tabs-for-facebook-pages.html",
-      "tags": [
-        "custom apps",
-        "Facebook",
-        "iFrame"
-      ]
+      "excerpt": "Facebook has recently upgraded Pages with a raft of new features that are aimed at helping Page owners communicate more effectively.  Amongst the new features are better ways to keep up with activity on a Page, new ways for Pages to share content, new ways for users to filter a Page's content by relevancy and a completely new system for creating Custom Tabs.",
+      "path": "2011/03/goodbye-static-fbml-hello-iframe-an-overview-of-custom-tabs-for-facebook-pages/"
     },
     {
       "publishedAt": "2011-02-26T11:51:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "26th February 2011",
-      "year": "2011",
-      "month": "02",
-      "slug": "facebook-announces-more-ways-to-publish-to-users-who-click-like-buttons",
       "title": "Facebook Announces More Ways to Publish to Users Who Click Like Buttons",
-      "path": "posts/2011-02-facebook-announces-more-ways-to-publish-to-users-who-click-like-buttons.html"
+      "excerpt": "Millions of websites and social games have implemented Facebook’s Like button social plugin, yet relatively few are taking advantage of the capability to publish news feed stories to users that click those buttons. In an effort to increase awareness of this option, Facebook <a href=\"http://developers.facebook.com/blog/post/465\">posted to the Developers Blog</a> explaining three ways admins can publish to their Like buttons, including through the new “Use Facebook as Page” feature.",
+      "path": "2011/02/facebook-announces-more-ways-to-publish-to-users-who-click-like-buttons/"
     },
     {
       "publishedAt": "2011-02-02T14:42:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "2nd February 2011",
-      "year": "2011",
-      "month": "02",
-      "slug": "design-utilities-wireframing-template",
       "title": "Design Utilities - Wireframing Template ",
-      "path": "posts/2011-02-design-utilities-wireframing-template.html",
-      "tags": [
-        "Design",
-        "process",
-        "templates",
-        "wireframes"
-      ]
+      "excerpt": "A key step in my design process is getting ideas down on paper.  It doesn't really matter where this happens, either in my lovely notebook or on sheets of A4, the key is to rapidly get ideas sketched out using good old pencil and paper.",
+      "path": "2011/02/design-utilities-wireframing-template/"
     },
     {
       "publishedAt": "2011-01-29T14:57:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "29th January 2011",
-      "year": "2011",
-      "month": "01",
-      "slug": "notebook-thoughts-a-better-way-of-making-contact",
       "title": "Notebook thoughts - A better way of making contact",
-      "path": "posts/2011-01-notebook-thoughts-a-better-way-of-making-contact.html",
-      "tags": [
-        "user experience",
-        "web design"
-      ]
+      "excerpt": "As part of an upcoming pitch I have been working away from my computer to remove internet distractions and open myself up to more creative thinking.",
+      "path": "2011/01/notebook-thoughts-a-better-way-of-making-contact/"
     },
     {
       "publishedAt": "2010-09-02T12:08:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "2nd September 2010",
-      "year": "2010",
-      "month": "09",
-      "slug": "think-vitamin-%c2%bb-20-steps-to-better-wireframing",
       "title": "Think Vitamin » 20 Steps to Better Wireframing",
-      "path": "posts/2010-09-think-vitamin-%c2%bb-20-steps-to-better-wireframing.html"
+      "excerpt": "<strong>17) It’s Not Just the Public Site</strong>  ",
+      "path": "2010/09/think-vitamin-%c2%bb-20-steps-to-better-wireframing/"
     },
     {
       "publishedAt": "2010-07-22T17:10:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "22nd July 2010",
-      "year": "2010",
-      "month": "07",
-      "slug": "particle-swarm-experiment-3",
       "title": "Particle Swarm Experiment 3",
-      "path": "posts/2010-07-particle-swarm-experiment-3.html",
-      "tags": [
-        "Actionscript",
-        "AS3",
-        "Flash",
-        "HYPE",
-        "Particles"
-      ]
+      "excerpt": "The little experiment now has multiple modes and a little system for sequencing them. I think this might be as far as I take this for now, but may end up coming back to it to add some new bits and pieces.",
+      "path": "2010/07/particle-swarm-experiment-3/"
     },
     {
       "publishedAt": "2010-07-21T12:10:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "21st July 2010",
-      "year": "2010",
-      "month": "07",
-      "slug": "particle-swarm-experiment-part-2",
       "title": "Particle Swarm Experiment part 2",
-      "path": "posts/2010-07-particle-swarm-experiment-part-2.html",
-      "tags": [
-        "Actionscript",
-        "AS3",
-        "Flash",
-        "Particles"
-      ]
+      "excerpt": "I'm starting to pull the particles experiment into some form of shape now so it's possible to visualise the underlying shape a bit better. I've also tightened up the colour scheme a little bit rather than just using random values.",
+      "path": "2010/07/particle-swarm-experiment-part-2/"
     },
     {
       "publishedAt": "2010-07-20T22:19:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "20th July 2010",
-      "year": "2010",
-      "month": "07",
-      "slug": "a-happy-accident",
       "title": "A happy accident",
-      "path": "posts/2010-07-a-happy-accident.html",
-      "tags": [
-        "Actionscript",
-        "AS3",
-        "Flash",
-        "HYPE",
-        "Particles"
-      ]
+      "excerpt": "Whilst playing with extending the HYPE framework I stumbled across this happy accident. It's not really what I'd intended the piece to do, but I think it looks really cool anyway.<!-- more -->",
+      "path": "2010/07/a-happy-accident/"
     },
     {
       "publishedAt": "2010-06-15T13:49:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "15th June 2010",
-      "year": "2010",
-      "month": "06",
-      "slug": "40-000-particles-with-a-perlin-flow-field-using-actionscript",
       "title": "40 000 Particles with a Perlin Flow Field using Actionscript",
-      "path": "posts/2010-06-40-000-particles-with-a-perlin-flow-field-using-actionscript.html",
-      "tags": [
-        "Actionscript",
-        "Animation",
-        "AS3",
-        "Generative",
-        "Particles"
-      ]
+      "excerpt": "Sounds really exciting doesn't it but what you see below you is the result of little experiment to see how many particles my computer could handle at a decent frame-rate. I got up to 75 000 before it started to chug but for the sake of demonstration the following example only has 40 000 so that the majority of people can have a decent viewing experience.",
+      "path": "2010/06/40-000-particles-with-a-perlin-flow-field-using-actionscript/"
     },
     {
       "publishedAt": "2010-06-02T15:30:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "2nd June 2010",
-      "year": "2010",
-      "month": "06",
-      "slug": "how-i-made-the-artwork-for-supatronix-using-flash-as3-and-the-hype-framework",
       "title": "How I made the artwork for Supatronix using Flash, AS3 and the HYPE Framework",
-      "path": "posts/2010-06-how-i-made-the-artwork-for-supatronix-using-flash-as3-and-the-hype-framework.html",
-      "tags": [
-        "actionscript 3",
-        "Art From Code",
-        "Flash",
-        "generative art",
-        "HYPE",
-        "supatronix"
-      ]
+      "excerpt": "<img src=\"http://ianthomasnet.files.wordpress.com/2010/06/7-on-black_19.png?w=212\" alt=\"7-on-black_19\" title=\"\" />",
+      "path": "2010/06/how-i-made-the-artwork-for-supatronix-using-flash-as3-and-the-hype-framework/"
     },
     {
       "publishedAt": "2010-05-26T14:56:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "26th May 2010",
-      "year": "2010",
-      "month": "05",
-      "slug": "big-swooping-circle-things",
       "title": "Big swooping circle things!!",
-      "path": "posts/2010-05-big-swooping-circle-things.html",
-      "tags": [
-        "actionscript 3",
-        "Art From Code",
-        "Flash",
-        "generative art",
-        "HYPE",
-        "Particles"
-      ]
+      "excerpt": "<a href=\"http://ianthomasnet.files.wordpress.com/2010/05/dark_circles_5-png-scaled-1000.jpg\"><img src=\"http://ianthomasnet.files.wordpress.com/2010/05/dark_circles_5-png-scaled-1000.jpg?w=300\" alt=\"Dark<em>circles</em>5\" title=\"\" /></a>",
+      "path": "2010/05/big-swooping-circle-things/"
     },
     {
       "publishedAt": "2010-05-17T17:44:55.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "17th May 2010",
-      "year": "2010",
-      "month": "05",
-      "slug": "some-special-artwork-produced-using-flash-as3-and-the-hype-framework",
       "title": "Some special artwork produced using Flash, AS3 and the HYPE framework",
-      "path": "posts/2010-05-some-special-artwork-produced-using-flash-as3-and-the-hype-framework.html",
-      "tags": [
-        "Actionscript",
-        "Art From Code",
-        "AS3",
-        "Flash",
-        "generative art",
-        "HYPE"
-      ]
+      "excerpt": "<a href=\"http://ianthomasnet.files.wordpress.com/2010/05/anniversary-composition-print-scaled-1000.jpg\"><img src=\"http://ianthomasnet.files.wordpress.com/2010/05/anniversary-composition-print-scaled-1000.jpg?w=300\" alt=\"Anniversary-composition-print-\" title=\"\" /></a>",
+      "path": "2010/05/some-special-artwork-produced-using-flash-as3-and-the-hype-framework/"
     },
     {
       "publishedAt": "2010-04-27T18:15:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "27th April 2010",
-      "year": "2010",
-      "month": "04",
-      "slug": "should-digital-designers-learn-to-love-coding",
       "title": "Should digital designers learn to love coding?",
-      "path": "posts/2010-04-should-digital-designers-learn-to-love-coding.html",
-      "tags": [
-        "Code",
-        "Design",
-        "Digital",
-        "Web"
-      ]
+      "excerpt": "My job title at <a href=\"http://www.coolpink.net/\">Coolpink</a> is 'Web Designer' and though my role has developed over time to incorporate Flash design and development, it was initially a bit different to what I'd come to expect as a web designer - I didn't have to code any HTML or CSS!  This came as a bit of a surprise to me (though not one that I would describe as unpleasant) and my colleagues all seemed happy enough with this arrangement.",
+      "path": "2010/04/should-digital-designers-learn-to-love-coding/"
     },
     {
       "publishedAt": "2010-04-15T22:59:00.000Z",
       "publishedAtHuman": "4 years ago",
       "publishedAtFormal": "15th April 2010",
-      "year": "2010",
-      "month": "04",
-      "slug": "what-does-apple-vs-adobe-mean-for-new-professional-flash-designers-and-developers",
       "title": "What does Apple Vs. Adobe mean for new professional Flash designers and developers?",
-      "path": "posts/2010-04-what-does-apple-vs-adobe-mean-for-new-professional-flash-designers-and-developers.html",
-      "tags": [
-        "Adobe",
-        "Apple",
-        "Flash"
-      ]
+      "excerpt": "The iPhone started it, the iPad carried it on and now it seems that the revised T's & C's from Apple have really fired the whole Apple vs. Adobe argument. From the outset I'm going to put my cards on the table, I love Apple products - I have an iPhone, an iMac and use Apple computers at work - and I also love working with Flash so this situation is one that is of both interest and concern to me. ",
+      "path": "2010/04/what-does-apple-vs-adobe-mean-for-new-professional-flash-designers-and-developers/"
     },
     {
       "publishedAt": "2010-03-26T17:37:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "26th March 2010",
-      "year": "2010",
-      "month": "03",
-      "slug": "drag-and-be-happy",
       "title": "Drag and be happy!",
-      "path": "posts/2010-03-drag-and-be-happy.html"
+      "excerpt": "Inspired by Erik Natzke this is an experiment with particles and chains to produce some pretty patterns!<!-- more -->",
+      "path": "2010/03/drag-and-be-happy/"
     },
     {
       "publishedAt": "2010-03-10T09:55:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "10th March 2010",
-      "year": "2010",
-      "month": "03",
-      "slug": "fitc-amsterdam-diary-day-2",
       "title": "FITC Amsterdam Diary - Day 2",
-      "path": "posts/2010-03-fitc-amsterdam-diary-day-2.html",
-      "tags": [
-        "Conference",
-        "FITC Amsterdam",
-        "Flash"
-      ]
+      "excerpt": "It's taken far too long to get this post up, so many apologies but I hope something of interest comes from it anyway!",
+      "path": "2010/03/fitc-amsterdam-diary-day-2/"
     },
     {
       "publishedAt": "2010-02-23T01:08:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "23rd February 2010",
-      "year": "2010",
-      "month": "02",
-      "slug": "fitc-amsterdam-diary-day-1",
       "title": "FITC Amsterdam Diary - Day 1",
-      "path": "posts/2010-02-fitc-amsterdam-diary-day-1.html",
-      "tags": [
-        "Conference",
-        "FITC Amsterdam",
-        "Flash"
-      ]
+      "excerpt": "FITC got started properly today and judging by the crush to get into the Keynote by Richard Galvan and Mark Anders it was going to be a busy day!",
+      "path": "2010/02/fitc-amsterdam-diary-day-1/"
     },
     {
       "publishedAt": "2010-02-21T23:28:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "21st February 2010",
-      "year": "2010",
-      "month": "02",
-      "slug": "fitc-amsterdam-diary-workshop-day",
       "title": "FITC Amsterdam Diary - Workshop Day",
-      "path": "posts/2010-02-fitc-amsterdam-diary-workshop-day.html"
+      "excerpt": "Today was day zero of the FITC Amsterdam conference with three workshops being held in the Felix Meritis centre, a gorgeous building inside and out, with some really unusual features. Our workshop was on the first floor and the room had a large ceiling with huge pillars lining the longest sides. The main Concertzaal room is equally impressive and spacious - though it needs to be judging by how popular the event is!",
+      "path": "2010/02/fitc-amsterdam-diary-workshop-day/"
     },
     {
       "publishedAt": "2010-01-20T18:21:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "20th January 2010",
-      "year": "2010",
-      "month": "01",
-      "slug": "playing-with-graphics-making-pretty-patterns-from-sound-with-actionscript-3",
       "title": "Playing with graphics: making pretty patterns from sound with Actionscript 3",
-      "path": "posts/2010-01-playing-with-graphics-making-pretty-patterns-from-sound-with-actionscript-3.html"
+      "excerpt": "Bit of a big one to download but worth the wait - using code to produce interesting graphics based on data from a song.<!-- more -->",
+      "path": "2010/01/playing-with-graphics-making-pretty-patterns-from-sound-with-actionscript-3/"
     },
     {
       "publishedAt": "2010-01-20T14:57:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "20th January 2010",
-      "year": "2010",
-      "month": "01",
-      "slug": "performance-test-with-as3-and-thousands-of-particles",
       "title": "Performance test with AS3 and thousands of particles",
-      "path": "posts/2010-01-performance-test-with-as3-and-thousands-of-particles.html"
+      "excerpt": "I've never experimented with using bitmapData and the copyPixels() method to increase performance when animating a large number of particles so I thought I'd have a quick play to see what could be achieved. ",
+      "path": "2010/01/performance-test-with-as3-and-thousands-of-particles/"
     },
     {
       "publishedAt": "2010-01-14T14:40:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "14th January 2010",
-      "year": "2010",
-      "month": "01",
-      "slug": "starting-to-play-around-with-generative-art-using-actionscript-3-0",
       "title": "Starting to play around with generative art using Actionscript 3.0",
-      "path": "posts/2010-01-starting-to-play-around-with-generative-art-using-actionscript-3-0.html"
+      "excerpt": "Up until recently I've not had much of a chance to play with generative art, though it's something that I've meaning meaning to check out for ages.  I've looked into Processing and had a little play with NodeBox before, but have never really used Flash in this capacity.  Flash, however, is an excellent environment to get into generative art as coding on the timeline can be loose and fast, with no need to get into classes and objects (unless you want to).  I think the term is 'sketching' and it's a good way to think of this sort of coding.  It's coding for designers, not developers.  Quick (and dirty) little scripts with no regard for performance that solely exist to produce interesting (if not beautiful) graphical output.",
+      "path": "2010/01/starting-to-play-around-with-generative-art-using-actionscript-3-0/"
     },
     {
       "publishedAt": "2010-01-08T15:55:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "8th January 2010",
-      "year": "2010",
-      "month": "01",
-      "slug": "how-to-reuse-actionscript-code-when-working-with-flash-cs4-a-quick-as3-tutorial",
       "title": "How to reuse actionscript code when working with Flash CS4 - a quick AS3 tutorial",
-      "path": "posts/2010-01-how-to-reuse-actionscript-code-when-working-with-flash-cs4-a-quick-as3-tutorial.html"
+      "excerpt": "Just a quick one this, hopefully showcasing how to use classes with MovieClips in Flash CS4.  I'll cover two basic methods, one ties different MovieClips to a base class and the other re-uses a button class.",
+      "path": "2010/01/how-to-reuse-actionscript-code-when-working-with-flash-cs4-a-quick-as3-tutorial/"
     },
     {
       "publishedAt": "2009-12-26T13:17:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "26th December 2009",
-      "year": "2009",
-      "month": "12",
-      "slug": "actionscript-3-display-list-tutorial-part-1-getting-to-grips-with-the-basics",
       "title": "Actionscript 3 Display List Tutorial Part 1: Getting To Grips With The Basics ",
-      "path": "posts/2009-12-actionscript-3-display-list-tutorial-part-1-getting-to-grips-with-the-basics.html",
-      "tags": [
-        "actionscript 3",
-        "Flash",
-        "tutorial"
-      ]
+      "excerpt": "I've been meaning to write a little introduction to the Display List for quite some time so hopefully this post will provide some very useful tips and tricks for people that are just delving into working with AS3. It's not an advanced tutorial but hopefully there'll be something of use to most Flashers!",
+      "path": "2009/12/actionscript-3-display-list-tutorial-part-1-getting-to-grips-with-the-basics/"
     },
     {
       "publishedAt": "2009-12-01T17:11:19.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "1st December 2009",
-      "year": "2009",
-      "month": "12",
-      "slug": "another-augmented-reality-snapshot",
       "title": "Another Augmented Reality Snapshot",
-      "path": "posts/2009-12-another-augmented-reality-snapshot.html"
+      "excerpt": "<a href=\"http://ianthomasnet.files.wordpress.com/2009/12/picture_4.png\"><img src=\"http://ianthomasnet.files.wordpress.com/2009/12/picture_4.png?w=300\" alt=\"Picture_4\" title=\"\" /></a>",
+      "path": "2009/12/another-augmented-reality-snapshot/"
     },
     {
       "publishedAt": "2009-11-26T18:04:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "26th November 2009",
-      "year": "2009",
-      "month": "11",
-      "slug": "christmas-is-coming-sneak-peek-of-an-augmented-reality-christmas-tree",
       "title": "Christmas is coming!!  Sneak peek of an Augmented Reality Christmas Tree",
-      "path": "posts/2009-11-christmas-is-coming-sneak-peek-of-an-augmented-reality-christmas-tree.html",
-      "tags": [
-        "Actionscript",
-        "Augmented Reality",
-        "Blender",
-        "FLARManager",
-        "FLARToolkit",
-        "Flash",
-        "Papervision3D"
-      ]
+      "excerpt": "<img src=\"http://ianthomasnet.files.wordpress.com/2009/11/picture_1.png?w=300\" alt=\"Picture_1\" title=\"\" />",
+      "path": "2009/11/christmas-is-coming-sneak-peek-of-an-augmented-reality-christmas-tree/"
     },
     {
       "publishedAt": "2009-11-25T15:41:13.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "25th November 2009",
-      "year": "2009",
-      "month": "11",
-      "slug": "flying-in-strips",
       "title": "Flying in strips",
-      "path": "posts/2009-11-flying-in-strips.html",
-      "tags": [
-        "Actionscript",
-        "Flash",
-        "flash effects"
-      ]
+      "excerpt": "In a nutshell, the picture is chopped into angled strips (the angle is set in the code) and then each strip is flown in randomly to create quite a cool transition!",
+      "path": "2009/11/flying-in-strips/"
     },
     {
       "publishedAt": "2009-11-19T10:28:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "19th November 2009",
-      "year": "2009",
-      "month": "11",
-      "slug": "is-the-best-framework-no-framework",
       "title": "Is the best framework no framework?",
-      "path": "posts/2009-11-is-the-best-framework-no-framework.html",
-      "tags": [
-        "Actionscript",
-        "coding",
-        "Design Patterns",
-        "Flash"
-      ]
+      "excerpt": "Next week marks my first full year in a digital agency and also my first full year working with Flash. Prior to 2008 I'd never really touched Actionscript, tweens or movieclips so it's been a bit of a whirlwind getting to where I am now! ",
+      "path": "2009/11/is-the-best-framework-no-framework/"
     },
     {
       "publishedAt": "2009-11-10T07:43:48.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "10th November 2009",
-      "year": "2009",
-      "month": "11",
-      "slug": "it%e2%80%99s-apple-iphone-day-for-orange-uk-customers-mobile-industry-review",
       "title": "It’s Apple iPhone-Day for Orange UK customers | Mobile Industry Review",
-      "path": "posts/2009-11-it%e2%80%99s-apple-iphone-day-for-orange-uk-customers-mobile-industry-review.html"
+      "excerpt": "This morning a whole raft of £35/month contract customers — who’ve previously been sitting staring at their bollocks Nokia / Sony Ericsson / Samsung / Windows Mobile Piece of Shit — are now free to contemplate a treat.",
+      "path": "2009/11/it%e2%80%99s-apple-iphone-day-for-orange-uk-customers-mobile-industry-review/"
     },
     {
       "publishedAt": "2009-11-08T21:02:54.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "8th November 2009",
-      "year": "2009",
-      "month": "11",
-      "slug": "advanced-papervision3d-training-in-london-with-carlos-ulloa",
       "title": "Advanced Papervision3D training in London with Carlos Ulloa",
-      "path": "posts/2009-11-advanced-papervision3d-training-in-london-with-carlos-ulloa.html",
-      "tags": [
-        "Actionscript",
-        "Flash",
-        "Papervision3D"
-      ]
+      "excerpt": "Carlos started off by explaining that he'd done big lectures, medium lectures and was now trying a different format as working with a large number of attendees often proved inefficient and really hard work.  I can vouch for the fact that as one of only seven on the course, two days with such a brilliant Flash developer in such closer quarters was absolutely amazing.",
+      "path": "2009/11/advanced-papervision3d-training-in-london-with-carlos-ulloa/"
     },
     {
       "publishedAt": "2009-11-07T20:01:52.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "7th November 2009",
-      "year": "2009",
-      "month": "11",
-      "slug": "fdt-where-have-you-been-all-my-life",
       "title": "FDT, where have you been all my life?",
-      "path": "posts/2009-11-fdt-where-have-you-been-all-my-life.html",
-      "tags": [
-        "Actionscript",
-        "FDT",
-        "Flash"
-      ]
+      "excerpt": "I took a little trip to London this week (more about that in another post) to take part in a two day, intensive, Advanced Papervision3d course run by Carlos Ulloa. The very first thing everyone did was break out their laptops and get the example code from Carlos (who is a top, top guy).  ",
+      "path": "2009/11/fdt-where-have-you-been-all-my-life/"
     },
     {
       "publishedAt": "2009-10-15T06:42:59.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "15th October 2009",
-      "year": "2009",
-      "month": "10",
-      "slug": "good-news-from-youtube-theyve-released-an-as3-chromeless-player",
       "title": "Good news from Youtube, they've released an AS3 Chromeless player!",
-      "path": "posts/2009-10-good-news-from-youtube-theyve-released-an-as3-chromeless-player.html"
+      "excerpt": "A recent project for I worrked on for The Science Museum (London) required Youtube integration and I can honestly say that working with an AS3 - AS2 wrapper and the general fiddle that was getting everything talking to each other made it one of the most frustrating jobs I've done in a while.  One particularly brilliant gotcha was that even if your code was right, you couldn't check if everything was working until you previewed the swf in a browser, which is crackers!!  The sigh of relief was huge when it all worked, as Youtube integration adds some pretty cool stuff to any project!",
+      "path": "2009/10/good-news-from-youtube-theyve-released-an-as3-chromeless-player/"
     },
     {
       "publishedAt": "2009-10-13T20:28:09.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "13th October 2009",
-      "year": "2009",
-      "month": "10",
-      "slug": "consuming-web-services-from-adobe-flash-or-now-you-see-me-now-you-dont",
       "title": "Consuming web services from Adobe Flash (or now you see me, now you \tdon't)",
-      "path": "posts/2009-10-consuming-web-services-from-adobe-flash-or-now-you-see-me-now-you-dont.html"
+      "excerpt": "Freely admitting that I'm not so hot on the intricate details of the Flash security sandbox, I guess this means that Twitter doesn't have a cross domain policy file (seems strange).  So I did the obvious thing, wrote some php that pulled the feed from Twitter so that my little Flash app thought it was coming from my domain.",
+      "path": "2009/10/consuming-web-services-from-adobe-flash-or-now-you-see-me-now-you-dont/"
     },
     {
       "publishedAt": "2009-10-12T23:45:15.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "13th October 2009",
-      "year": "2009",
-      "month": "10",
-      "slug": "supatronix-halloween-special-30th-october",
       "title": "Supatronix Halloween Special, 30th October",
-      "path": "posts/2009-10-supatronix-halloween-special-30th-october.html",
-      "tags": [
-        "flyer design",
-        "supatronix"
-      ]
+      "excerpt": "It's a masive shame that Herbal has been closed as it was a great club for a breaks party - small and lively with a great soundsystem.",
+      "path": "2009/10/supatronix-halloween-special-30th-october/"
     },
     {
       "publishedAt": "2009-09-01T22:19:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "1st September 2009",
-      "year": "2009",
-      "month": "09",
-      "slug": "photoshop-text-styles",
       "title": "Photoshop Text Styles",
-      "path": "posts/2009-09-photoshop-text-styles.html",
-      "tags": [
-        "day dreaming",
-        "photoshop"
-      ]
+      "excerpt": "So tonight I was doing some work in Adobe InDesign CS4 and I was messing around with character styles and text frames.  If you've never used InDesign then these are pretty much bread and butter layout tools for type and they are pretty damn good.  The only trouble with them is that once you've used them, you really want them in Photoshop (and Illustrator for that matter).",
+      "path": "2009/09/photoshop-text-styles/"
     },
     {
       "publishedAt": "2009-09-01T19:09:20.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "1st September 2009",
-      "year": "2009",
-      "month": "09",
-      "slug": "carsonified-top-10-ux-myths",
       "title": "Carsonified  » Top 10 UX Myths",
-      "path": "posts/2009-09-carsonified-top-10-ux-myths.html"
+      "excerpt": "Every preference which is not really needed is a design choice that I’m offloading to all the users of my product or service.",
+      "path": "2009/09/carsonified-%c2%bb-top-10-ux-myths/"
     },
     {
       "publishedAt": "2009-09-01T12:41:00.000Z",
       "publishedAtHuman": "5 years ago",
       "publishedAtFormal": "1st September 2009",
-      "year": "2009",
-      "month": "09",
-      "slug": "some-questions-about-adobe-flash",
       "title": "Some Questions about Adobe Flash",
-      "path": "posts/2009-09-some-questions-about-adobe-flash.html"
+      "excerpt": "Recently I've been working more and more in Flash with the work getting increasingly complex and code intensive. This got me thinking about dynamic content and Flash's capabilities to work with it.",
+      "path": "2009/09/some-questions-about-adobe-flash/"
     }
   ]
 }
