@@ -7,12 +7,13 @@ var through   = require('through2'),
     fs        = require('fs'),
     showdown  = require('showdown'),
     converter = new showdown.converter(),
+    excerptify = require('../src/lib/excerptify'),
     path      = require('path');
 
 module.exports = function(opts) {
     var defaults = { 
-        template: 'main.html',
-        baseDir: './src/html/layouts',
+        template: 'article.html',
+        baseDir: './src/html/',
         globals: { year: moment().format('YYYY')}
     };
 
@@ -49,17 +50,19 @@ module.exports = function(opts) {
             var newName = path.join(year, month, post.data.slug, 'index.html');
             file.path = path.resolve(file.base, newName);
 
+            post.content = converter.makeHtml(post.content);
+            _.merge(post.data, defaults.globals);
+            post.data.publishedAt = post.data.date;
+            post.data.publishedAtFormal = pubDate.format('Do MMMM YYYY'); // this is lovely but is inaccurate
+
             posts.push({
                 publishedAt: post.data.date,
                 publishedAtHuman: pubDate.fromNow(),
                 publishedAtFormal: pubDate.format('Do MMMM YYYY'),
                 title: post.data.title,
+                excerpt: post.data.excerpt || excerptify(post.content),
                 path: file.relative.replace('index.html', '')
             });
-
-            post.content = converter.makeHtml(post.content);
-            _.merge(post.data, defaults.globals);
-            post.data.publishedAt = pubDate.fromNow();
 
             file.contents = new Buffer(compiledTemplate(post));
 

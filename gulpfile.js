@@ -1,4 +1,5 @@
 var gulp       = require('gulp'),
+    fs         = require('fs'),
     sass       = require('gulp-sass'),
     browserify = require('browserify'),
     source     = require('vinyl-source-stream'),
@@ -44,13 +45,23 @@ gulp.task('html', function() {
         .pipe(reload({stream:true}));
 });
 
+gulp.task('homepage', ['html'], function() {
+    var sitemap = fs.readFileSync('./build/sitemap.json', 'utf-8');
+    var template = fs.readFileSync('./src/html/home.html', 'utf-8');
+    var compiledTemplate = hbs.compile(template);
+
+    var homepage = compiledTemplate(JSON.parse(sitemap));
+    fs.writeFileSync('./build/index.html', homepage);
+    return true;
+});
+
 gulp.task('watch', ['server'], function() {
     watch({ glob: ['./_posts/**/*', './src/html/**/*.html']}, ['html']);
     watch({ glob: ['./src/js/**/*.js']}, ['js']);
     watch({ glob: ['./src/scss/**/*.scss']}, ['sass']);
 });
 
-gulp.task('deploy', ['html', 'js', 'sass'], function() {
+gulp.task('deploy', ['homepage', 'js', 'sass'], function() {
     return gulp.src('build/**/*', { base: 'build' })
         .pipe(deploy({
             branch: 'master' 

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>{{ data.title }}</title>
     <link rel='stylesheet' href='/css/app.css'/>
 </head>
@@ -9,7 +10,7 @@
 <article>
     <header>
         <h1 class=article__title>{{ data.title }}</h1>
-        <h3 class=article__meta>First published {{ data.publishedAt }}</h3>
+        <h3 class=article__meta>First published {{ data.publishedAtFormal }}</h3>
     </header>
 {{{ content }}}
 </article>
