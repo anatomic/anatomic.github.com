@@ -1,4 +1,4 @@
-var pattern = /<p.*?>(.*)<\/p>/i;
+var pattern = /<p.*?>(.*)<\/p>/i; // don't be greedy
 var entities = {
     '&': /&amp;/g,
     '–': /&mdash;/g,
