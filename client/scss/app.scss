@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+
+$body-color: #7b7a7a;
+
+html {
+  font-size: 112.5%; // 18px
+  line-height: 1.555555; // 28px
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: $body-color;
+  background-color: #f7f7f7;
+  background-image: linear-gradient(to right, #f3f3f3 0, #fff 15%, #fff 85%, #f3f3f3 100%);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #3b3b3b;
+}
+
+div,
+article,
+section,
+li,
+p,
+h1,h2,h3,h4,h5,h6
+{ margin: 0; }
+
+h1,h2,h3,h4,h5,h6,
+p,ul,ol,dl { margin-bottom: 1.5rem; }
+
+h1 {
+  font-size: 2rem;
+}
+
+li > p { 
+  margin-bottom: 0.2rem;
+  color: darken($body-color, 10%);
+  font-style: italic;
+}
+
+body {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: white;
+}
+
+small,
+.smallprint {
+  font-size: 0.75rem;
+}
+
+blockquote {
+  $quote-color:#B74C31; 
+  font-style: italic;
+  font-size: 1.2rem;
+  margin: 0;
+  color: $quote-color;
+  border-left: 5px solid lighten($quote-color, 5%);
+  padding-left: 1em;
+  margin: 0 2em;
+}
+
+$link-color: #D13A82;
+a, a:active, a:focus {
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: 1px dotted lighten($link-color, 15%);
+}
+
+a:hover {
+  color: darken($link-color, 15%);
+  border-bottom-style: solid;
+  border-bottom-color: darken($link-color, 15%);
+}
+
+.article {  
+  &__title {
+    margin-bottom: 0.1em;
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  &__meta {
+    color: lighten($body-color, 20%);
+    margin:0 0 1.5rem 0;
+    padding-bottom: 0.25rem;
+    font-weight: 400;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #ededed;
+  }
+
+  &__body {
+    & > p:first-of-type {
+      font-size: 1.1rem;
+      color: darken($body-color, 20%);
+    }
+  }
+}
+
+
+.rule {
+  border: 0;
+  background-color: #ededed;
+  height: 1px;
+  margin-bottom: 1.5rem;
+}
+
+pre {
+  background-color: #002833;
+  padding: 1em;
+  overflow: auto;
+  font-size: 0.833333333rem;
+  border-radius: 8px;
+}
+
+.hljs {
+  color: #D13A82;
+
+  &-number {
+    color: #D13A82;
+  }
+
+  &-class {
+    color: #BD961E;
+  }
+
+  &-tag {
+    color: #6E901B;
+  }
+
+  &-attr_selector {
+    color: #BD1C10;
+  }
+
+  &-rules {
+    color: #0D9FFC;
+  }
+
+  &-rule {
+    color: #9C9C9C;
+  }
+
+  &-attribute {
+    color: #BD961E;
+  }
+
+  &-value {
+    color: #01BBBC;
+  }
+}

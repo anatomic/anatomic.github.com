@@ -1,0 +1,54 @@
+{
+  "name": "anatomic.github.com",
+  "version": "0.0.0",
+  "description": "Ian Thomas' blog about interaction design and front-end development",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js --harmony",
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anatomic/anatomic.github.com.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Ian Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anatomic/anatomic.github.com/issues"
+  },
+  "homepage": "https://github.com/anatomic/anatomic.github.com",
+  "dependencies": {
+    "async": "^0.9.0",
+    "autoprefixer-loader": "^1.0.0",
+    "bean": "^1.0.14",
+    "bonzo": "^2.0.0",
+    "bundle-loader": "^0.5.2",
+    "css-loader": "^0.9.0",
+    "express": "^4.8.5",
+    "file-loader": "^0.8.1",
+    "gray-matter": "^0.4.2",
+    "handlebars": "^2.0.0",
+    "highlight.js": "^8.1.0",
+    "jsx-loader": "^0.12.1",
+    "lodash": "^2.4.1",
+    "markdown": "^0.5.0",
+    "marked": "^0.3.2",
+    "moment": "^2.8.1",
+    "node-jsx": "^0.12.0",
+    "nodemon": "^1.2.1",
+    "qwery": "^4.0.0",
+    "react": "^0.12.0",
+    "react-router": "^0.10.2",
+    "reqwest": "^1.1.2",
+    "sass-loader": "^0.3.0",
+    "showdown": "^0.3.1",
+    "style-loader": "^0.8.2",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.4.12",
+    "webpack-dev-middleware": "^1.0.11"
+  }
+}

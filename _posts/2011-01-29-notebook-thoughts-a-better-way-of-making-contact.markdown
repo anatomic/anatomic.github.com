@@ -1,0 +1,75 @@
+---
+comments: true
+date: 2011-01-29 14:57:00
+layout: post
+slug: notebook-thoughts-a-better-way-of-making-contact
+title: Notebook thoughts - A better way of making contact
+wordpress_id: 11
+categories:
+- General
+tags:
+- user experience
+- web design
+---
+
+
+    
+
+As part of an upcoming pitch I have been working away from my computer to remove internet distractions and open myself up to more creative thinking.
+
+
+
+
+
+So, armed with a trusty pencil and a lovely Moleskine Cahier gridded notebook I've been perched in the front atrium of the Round Foundry Media Centre jotting down my thoughts and ideas for this exciting web project.
+
+
+
+
+
+Some of the notes I've made are project specific, but some of them are more widely applicable and I thought they could be of interest/use to others so here is the first in a series of posts explaining some of my thoughts.
+
+
+
+
+
+## Mailto: is dead
+
+
+
+
+
+As part of this pitch we commissioned some remote user testing (courtesy of the great service [www.whatusersdo.com](http://www.whatusersdo.com)) and one of the unsuspected findings was how people want to contact others when browsing the web.
+
+
+
+
+
+The problem was this, a user saw that they needed to email someone for more information, they clicked the email address and boom, their computer went crazy!  All sorts of alerts and popups from Windows Live Mail, confusion reigned and they were left struggling to work out what to do next.  If emailing the person shown on the site was a goal, this user was certainly struggling to achieve it.
+
+
+
+
+
+The problem here is that there is a huge group of users on the internet that don't use a native mail client.  Instead, services such as Yahoo, Hotmail and Gmail are the preferred choices and often people don't setup these accounts with traditional mail clients like Thunderbird, Outlook Express or Mac Mail.
+
+
+
+
+
+My notes on this were simply the following:
+
+
+
+
+
+> People should be able to communicate with a site's contact without having to use their email or 3rd party software.
+
+
+
+
+
+In short, if there is any part of your site that lists someone's email address as a means of contact consider implementing a neat way to show them a contact form with the recipient clearly shown.  The user won't have to leave the site, open a new window or get confused by popups telling them they have to set up their mail accounts.
+
+
+  

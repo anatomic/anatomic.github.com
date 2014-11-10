@@ -1,0 +1,99 @@
+---
+comments: true
+date: 2010-04-27 18:15:00
+layout: post
+slug: should-digital-designers-learn-to-love-coding
+title: Should digital designers learn to love coding?
+wordpress_id: 24
+categories:
+- General
+tags:
+- Code
+- Design
+- Digital
+- Web
+---
+
+
+    
+
+My job title at [Coolpink](http://www.coolpink.net/) is 'Web Designer' and though my role has developed over time to incorporate Flash design and development, it was initially a bit different to what I'd come to expect as a web designer - I didn't have to code any HTML or CSS!  This came as a bit of a surprise to me (though not one that I would describe as unpleasant) and my colleagues all seemed happy enough with this arrangement.
+
+
+
+
+It quickly became apparent that none of the design team had aspirations to learn Actionscript either so the Flash output was mainly slightly amended stock elements or very straight forward animations using the timeline and snippits of code pinched from searches on Google.
+
+
+
+
+My background in Computer Science gave me a fairly hefty leg up when I stepped in to take charge of the Flash work we had coming in.  The recent release (at that time) of AS 3.0 meant that much of the best-practise for coding ActionScript fit with theory already in my head and as I worked on more interactive projects it became apparent that the best quality work could only be achieved by implementing code, not purely using the timeline in isolation.
+
+
+
+
+In the past six months my role has changed as I've begun to focus more  on creating experiences and interactive work and less on standard web design, so much so that I'd consider my job title to have changed from Web Designer to Interactive Designer.  I'll be quick to state that interactive does not equal animation (or the inherently bland images fading between one another as part of a promo), everything that someone comes into contact with on the Internet is in some way interactive.  On the whole though, I've been responsible for designing  and developing Flash games/sites/widgets/etc. that are based around  reacting to a user's input.
+
+
+
+
+<!-- more -->
+
+
+
+
+So, should digital designers learn to love coding? I'd say a definite yes as you can explore the digital medium better by knowing how to code, you are not limited to static mock ups of ideas.  One of the things I love about working with Flash is that you can create visually stunning work that can only be achieved by coding.  I'd argue that a coder that didn't have a visual flair wouldn't be able to produce this sort of work in the same way that a designer that creates beautiful work couldn't.  You only have to look at work by [Josua Davis](http://www.joshuadavis.com), [Erik Natzke](http://www.eriknatzke.com), [Quasimondo](http://www.quasimondo.com), [Jared Tarbell](http://www.levitated.net), [Bit101](http://www.bit-101.com), etc. etc. to see what I'm talking about.  Beautiful work all achieved through coding.
+
+
+
+
+Sometimes the code is solely responsible for making something react or change in a pretty way, sometimes it changes a set of rules by which the elements on the screen abide, sometimes it uses drawing commands to produce artwork that mimics reality and sometimes it simpley loads another web page.  All of this code is creative and as a designer I feel better equipped to produce outstanding work by having the ability to make my ideas a reality, better equipped to make the user's experience of my work breathtaking.
+
+
+
+
+Of course, not everyone loves Flash but that doesn't mean to say that code is meaningless to you if you don't create Flash work.  Javascript is a massive part of any website and is fundamental in improving users' experiences on the web as a whole.  Facebook without Javascript (in fact a lot of sites without AJAX) would be a horrific experience!  For the 'Flash is dead' brigade, HTML5 and specifically the Canvas tag will definitely not do away with a need to code, quite the opposite as there is currently no visual IDE available for production of content.
+
+
+
+
+Reading, understanding and talking about what is possible with regards to digital is one thing; but I believe that only by understanding and implementing code will you truly get the best result.*
+
+
+
+
+There is, of course, the opposing viewpoint that designers should stay away from code to avoid limiting creativity.  Lukas Mathis is [strongly against designers coding](http://ignorethecode.net/blog/2009/03/10/designers-are-not-programmers/) saying:
+
+
+
+
+> 
+
+> 
+> Designers who also know how to code either work with dedicated  programmers, or they implement their own designs. Both cases can cause  issues.
+> 
+> 
+
+> 
+> In the first case, the user interaction designer is compromised  because he may make premature decisions which should be left up to the  programmer, who has the full picture of the code base and better  knowledge of the technology. In the second case, he is compromised  because he has two contradicting goals.
+> 
+> 
+
+
+
+
+
+I disagree with this viewpoint as it relates more to the ability and mindset of the designer.  A good designer should implement good processes to ensure that they focus on the correct part of the job in hand and shouldn't limit themselves when thinking of how to creatively solve a brief.
+
+
+
+
+Any designer's focus should always be on producing the best possible user experience and when it comes to working in the digital medium I'd say that a decent grasp of the relevant code is increasingly important.
+
+
+
+
+_*My caveat here is that coded projects are inevitably best when completed in tadem with an experienced developer.  I guess the main point should be that as a designer with the ability to code, it is possible to get the idea working in some form or another and then you can go to a developer and really make it sparkle._
+
+
+  

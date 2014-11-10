@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./client/js/home.js"],"names":[],"mappings":";;;;;;;AAAA,KAAI,MAAM,GAAG,mBAAO,CAAC,iBAAU,CAAC,CAAC","sourcesContent":["var router = require('./router');\n\n\n\n/** WEBPACK FOOTER **\n ** ./client/js/home.js\n **/"],"sourceRoot":"","file":"home.js"}
